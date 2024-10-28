@@ -2,6 +2,10 @@
 # IDE - VSCode
 .vscode/
  
+#CSS
+.assets/css/style.css
+.assets/css/style.css.map
+
 # System Files
 .DS_Store
 Thumbs.db

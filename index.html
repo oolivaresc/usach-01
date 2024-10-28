@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar__container">
             <a class="navbar__brand" href="#">
-                <img class="navbar__logo" src="img/logo.png" alt="Logo" width="60" height="48">
+                <img class="navbar__logo" src="assets/img/logo.png" alt="Logo" width="60" height="48">
             </a>
-            <div class="navbar__menu" id="navbarMenu">
+            <button id="toggle-button" class="navbar__toggle" type="button">
+              <p class="navbar__icon" alt="Menu">☰</p>
+            </button>
+            <div class="navbar__menu" id="navbar-menu">
               <ul class="navbar__list">
                 <li class="navbar__item">
                   <a class="navbar__link navbar__link--active" aria-current="page" href="#">Home</a>
@@ -38,23 +41,23 @@
       <section class="carousel">
         <div class="carousel__inner">
           <div class="carousel__item carousel__item--active">
-            <img class="carousel__image" src="img/img-d1.avif" alt="Slide 1">
+            <img class="carousel__image" src="assets/img/img-d1.avif" alt="Slide 1">
           </div>
           <div class="carousel__item">
-            <img class="carousel__image" src="img/img-d2.jpeg" alt="Slide 2">
+            <img class="carousel__image" src="assets/img/img-d2.jpeg" alt="Slide 2">
           </div>
           <div class="carousel__item">
-            <img class="carousel__image" src="img/img-d3.webp" alt="Slide 3">
+            <img class="carousel__image" src="assets/img/img-d3.webp" alt="Slide 3">
           </div>
           <div class="carousel__item">
-            <img class="carousel__image" src="img/img-d4.webp" alt="Slide 4">
+            <img class="carousel__image" src="assets/img/img-d4.webp" alt="Slide 4">
           </div>
         </div>
-        <button id="btnPrev" class="carousel__control carousel__control--prev" aria-label="Previous slide">
-          <img class="carousel__control-icon" src="img/arrow_left.png"></img>
+        <button id="btnPrev" class="carousel__control carousel__control--prev">
+          <img class="carousel__control-icon" src="assets/img/arrow_left.png"></img>
         </button>
-        <button id="btnNext" class="carousel__control carousel__control--next" aria-label="Next slide">
-          <img class="carousel__control-icon" src="img/arrow_right.png"></img>
+        <button id="btnNext" class="carousel__control carousel__control--next">
+          <img class="carousel__control-icon" src="assets/img/arrow_right.png"></img>
         </button>
       </section>
 
@@ -62,7 +65,7 @@
         <div class="welcome__content">
           <article class="welcome__article">
             <h1 class="welcome__title">Welcome!</h1>
-            <p class="welcome__text">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+            <p class="welcome__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa voluptate nobis ratione enim iusto doloremque aliquid alias, ullam adipisci, placeat exercitationem vero. Aut minus laudantium impedit maxime, illum eligendi excepturi.</p>
           </article>
         </div>
       </section>
@@ -73,19 +76,19 @@
         <div class="footer__row">
           <div class="footer__column">
             <h3 class="footer__title">Management</h3>
-            <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+            <p class="footer__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa voluptate nobis ratione enim iusto doloremque aliquid alias, ullam adipisci, placeat exercitationem vero. Aut minus laudantium impedit maxime, illum eligendi excepturi.</p>
           </div>
           <div class="footer__column">
             <h3 class="footer__title">Planning</h3>
-            <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+            <p class="footer__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa voluptate nobis ratione enim iusto doloremque aliquid alias, ullam adipisci, placeat exercitationem vero. Aut minus laudantium impedit maxime, illum eligendi excepturi.</p>
           </div>
           <div class="footer__column">
             <h3 class="footer__title">Marketing</h3>
-            <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+            <p class="footer__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa voluptate nobis ratione enim iusto doloremque aliquid alias, ullam adipisci, placeat exercitationem vero. Aut minus laudantium impedit maxime, illum eligendi excepturi.</p>
           </div>
           <div class="footer__column">
             <h3 class="footer__title">Reports</h3>
-            <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+            <p class="footer__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa voluptate nobis ratione enim iusto doloremque aliquid alias, ullam adipisci, placeat exercitationem vero. Aut minus laudantium impedit maxime, illum eligendi excepturi.</p>
           </div>
         </div>
         <div class="footer__bottom">
@@ -94,6 +97,6 @@
       </div>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 </html>

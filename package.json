@@ -1,0 +1,11 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss:compile": "sass assets/scss/main.scss assets/css/styles.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
