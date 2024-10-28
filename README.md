@@ -1,3 +1,5 @@
 # usach-01
-# SAAS
+
+# SASS
+## Ejecutar el siguiente comando para compilar SASS
 npm run scss:compile
